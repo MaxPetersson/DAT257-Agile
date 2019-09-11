@@ -7,7 +7,8 @@ Individual reflection week #2
 <h1>what is my contribution towards the team’s deliveries?</h>
 <br>
 <br>
-<h2>Karin</h>
+<h2>Karin</h> 
+    Since this is the second week and we just decided what the project will be about - there is little to reflect on regarding the project itself. 
 <br>
 <h2>Philip</h>
 <br>
