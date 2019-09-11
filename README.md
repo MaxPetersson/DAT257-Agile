@@ -5,5 +5,4 @@ Code- and projectfiles in /Development.
 Social Contract and individual reflections in /Reflections and Social Contract.
 
 
-Group name on canvas: Nautica
-Group members: David, Karin, Philip, Dara, Oscar, Max.
+Group name on canvas: Nautica <br> Group members: David, Karin, Philip, Dara, Oscar, Max.
