@@ -19,8 +19,9 @@ Individual reflection week #2
     2. How can I help someone else, or the entire team, to learn something new?
         I can help the group by sharing a small amount of scrum-like working experience.
     3. What is my contribution towards the team’s use of Scrum?
-        
+        Not so much yet. The first sprint will be next week.
     4. What is my contribution towards the team’s deliveries?
+        Up until now, brainstorming and discussions to decide on a project scope.
 <br>
 <br>
 <h2>Philip</h>
