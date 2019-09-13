@@ -6,11 +6,11 @@ Individual reflection week #2
 <h1>what is my contribution towards the team’s use of Scrum?</h>
 <h1>what is my contribution towards the team’s deliveries?</h>
 <br>
-<h2>In the individual reflection, please address the questiong using the A, B, A -> B reflective loop.</h>
+<h2>In the individual reflection, please address the questiong using the A, B, A -> B reflective loop.</h2>
 <br>
-<h1>The first week of the course you describe the current situation by motivating a learning objective.</h>
+<h1>The first week of the course you describe the current situation by motivating a learning objective.</h1>
 <br>
-<h2>Karin</h> 
+<h2>Karin</h2> 
     Since this is the second week and we just now decided what the project will be about - there is little to reflect on regarding the project itself. However, I can reflect some on the organizaiton of the project and the current situation. 
     1. What do I want to learn or understand better?
         A. I have very little experience in writing user stories.
