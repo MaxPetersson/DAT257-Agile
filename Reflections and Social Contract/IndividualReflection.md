@@ -27,6 +27,19 @@ Individual reflection week #2
 <h2>Philip</h>
 <br>
 <h2>Dara</h>
+    1. What do I want to learn or understand better?<br>
+        A. I have a little experience in the use of Scrum.<br>
+        B. I want to learn and apply the use of Scrum more in-depth.<br>
+        A->B. To achieve B, I need to get some "field experience" of Scrum since I think that is the way to go to learn it as fast as possible. <br>
+        2. How can I help someone else, or the entire team, to learn something new?<br>
+            I can talk to my peers and even though I might not understand their problem I can get them on track by sharing my thoughts.<br>
+        3. What is my contribution towards the team's use of Scrum?<br>
+            At the moment not very much. I shared my thoughts on what and what not I think should and shouldn't be on the scrum board.<br>
+        4. What is my contribution towards the team's deliveries?<br>
+            We haven't as of yet actually started implementing our project. We have only come up with ideas of what we should work on. Therefore the only thing I have contributed with towards my team is ideas and discussion.<br>
+<br>
+<br>
+            
 <br>
 <h2>Oscar</h>
 <br>
