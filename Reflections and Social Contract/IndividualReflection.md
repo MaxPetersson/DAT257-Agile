@@ -25,15 +25,15 @@ Individual reflection week #2
 <br>
 <br>
 <h2>Philip</h>
-    1.What do I want to learn or understand better?
+    1.What do I want to learn or understand better?<br>
         A. I do not know what a good reflection looks like.
         B. I want to learn how to reflect and somehow know if something is good to reflect about at all or not.
-        A->B. To go from A to B, I need to keep reflecting on things I do and talk to others about their reflections.
-    2.How can i help someone else, or the entire team, to learn something new?
+        A->B. To go from A to B, I need to keep reflecting on things I do and talk to others about their reflections.<br>
+    2.How can i help someone else, or the entire team, to learn something new?<br>
         I can research on something related to this course and share that information.
-    3.What is my contribution towards the tea's use of scrum?
+    3.What is my contribution towards the tea's use of scrum?<br>
         Apart from perhaps good discussions, not much.
-    4.What is my contribution towards the team's deliveries?
+    4.What is my contribution towards the team's deliveries?<br>
         Perhaps good spirit and keeping the meetings focused on agreeing on something as a team.
 <br>
 <h2>Dara</h>
