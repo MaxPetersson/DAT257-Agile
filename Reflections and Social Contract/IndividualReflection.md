@@ -58,6 +58,24 @@ Individual reflection week #2
 <h2>Oscar</h>
 <br>
 <h2>Max</h>
+	1. What do I want to learn or understand better?
+	<br>
+	A. I would like to clearify epics and stories.
+	B. I would like to find specific usage of the two in different scenarios
+	A->B. To learn this I want to first find a good setup in our project and eventually picture what other projects could look like.
+
+	<br>
+	2. How can i Help someone else, or the entire team, to learn something new?
+	<br>
+	We can try together and check with the teachers.
+	<br>
+	3. What is my contribution towards the team's use of Scrum?
+	<br>
+	I will try to find out what kind of scrum-master responsibilities that the team can benefit from.
+	<br>
+	4. What is my contribution towards the team's deliveries?
+	<br>
+	Focusing mainly on planning and task-dividing. Initially.
 	
 <br>
 <h2>David</h>
