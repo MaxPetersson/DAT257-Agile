@@ -25,6 +25,7 @@ Individual reflection week #2
 <br>
 <br>
 <h2>Philip</h>
+
     1.What do I want to learn or understand better?<br>
         A. I do not know what a good reflection looks like.
         B. I want to learn how to reflect and somehow know if something is good to reflect about at all or not.
