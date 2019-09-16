@@ -78,6 +78,16 @@ Individual reflection week #2
 	Focusing mainly on planning and task-dividing. Initially.
 	
 <br>
-<h2>David</h>
+<h2>David</h><br>
+    1. What do I want to learn or understand better?<br>
+        A. I'm not as confident in github as I would like to be.<br>
+	B. I want to use git with confidence. <br>
+	A->B. I will review my notes for older classes and ask questions as early as possible.<br>
+    2. How can I help someone else, or the entire team, to learn something new?<br>
+        I don't think there's anything new to share before the first sprint<br>
+    3. What is my contribution towards the team’s use of Scrum?<br>
+        I haven't contributed more than anyone else in our meetings so far<br>
+    4. What is my contribution towards the team’s deliveries?<br>
+        I helped reach a conclusion in choosing scope for our project<br>
 <br>
 
