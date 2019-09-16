@@ -58,6 +58,7 @@ Individual reflection week #2
 <h2>Oscar</h>
 <br>
 <h2>Max</h>
+	
 <br>
 <h2>David</h>
 <br>
