@@ -34,7 +34,7 @@ Individual reflection week #2
     3.What is my contribution towards the tea's use of scrum?<br>
         Apart from perhaps good discussions, not much.
     4.What is my contribution towards the team's deliveries?<br>
-        Perhaps good spirit and keeping the meetings focused on agreeing on something as a team.
+        Perhaps good spirit and keeping the meetings focused on agreeing on something as a team.<br>
 <br>
 <h2>Dara</h>
     1. What do I want to learn or understand better?<br>
