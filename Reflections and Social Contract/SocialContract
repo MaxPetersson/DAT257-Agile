@@ -1,20 +1,38 @@
-Socialt kontrakt
+Social contract
 
-Dyka upp den tiden som är överenskommet. 
+All texts that we are going to present will be written in english. E.g Slack can be swedish.
 
-Allt som sägs som berör projektet ska kommuniceras i Slack.
+We meet every monday 09.00-12.00 at Lindholmen, unless other has been decided.
 
-Sikta på att ses 10-15h per vecka.
+We meet every wednesday 08.30-17.00 at Lindholmen,  unless other has been decided.
 
-Flexibelt schema så länge det avtalas.
+Every Monday we create new "IndividualReflection Week X" and "GroupReflection Week X". Where X is the reading week.
+Each member writes in "IndividualReflection Week X" under the respective names in the document.
 
-Stand-up möten vid arbetstillfällen då gruppen ses.
+Everyone must have written their IndividualReflection for the PREVIOUS week before 08.59 every Monday and posted it in the repot.
 
-Be om hjälp / bjud in till samarbete på slack inför eventuell session.
+Turn up the time agreed for our meetings / code houses.
 
-Boka Grupprum och Möten senast veckan innan.
+Meeting minutes should be held every meeting with the group. Max does this and uploads the repo after the end of the meeting.
+Name "Read WeekX, date" on file.
+Philip does it in Max's absence.
 
-Kommunicera i god tid om man känner att man har tagit på sig / fått tilldelat för mycket.
+Stand-up meetings at all meetings when the group is seen. Max 5min.
 
+If needed, all members are expected to be able to spend 20h per week.
+
+Book Group Rooms and Meetings no later than the week before.
+
+Notify in the Help-Slack channel if someone gets a problem that they do not get on with within 30min and do another task in the meantime.
+
+Encourage each other to collaborate on slack for any work session.
+E.g If Philip is going to sit and work at the school beyond the agreed time, he is encouraged to announce this in slack.
+
+Good atmosphere is encouraged through coffee and baked goods.
+
+Naming new branches: find and use a suitable "prefix".
+If the purpose of the new branch has to do with project organization or other administrative stuff,
+name the branch "organization/" followed by what you will work on. See the individual reflections branch above.
+If it is a feature, use "feature/...-...-...", if it is a bugfix, "bugfix/...-...-...".
 
 
