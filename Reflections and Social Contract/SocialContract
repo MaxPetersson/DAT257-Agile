@@ -35,4 +35,12 @@ If the purpose of the new branch has to do with project organization or other ad
 name the branch "organization/" followed by what you will work on. See the individual reflections branch above.
 If it is a feature, use "feature/...-...-...", if it is a bugfix, "bugfix/...-...-...".
 
+A branch is created for every specific task. When that task is completed and >fully< functional with the current Master,
+the tester that tested that task merges it into Master.
+E.g Dara creates branch B for task T. He then puts T into "Code Review" on Trello.
+Philip, or any other group member exept for Dara, then proceeds and read Daras code AND tests his solution so that is works with master.
+If it does not work, Philip will notify Dara in the CodeReview channel in Slack and Philip puts the card back in "In progress" on trello.
+If it does work, then Philip will merge branch B into master.
+
+
 
