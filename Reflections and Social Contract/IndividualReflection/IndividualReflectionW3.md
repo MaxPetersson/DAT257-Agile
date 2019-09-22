@@ -36,6 +36,21 @@ Individual reflection week #3
 <br>
 <h2>Dara</h2> 
 <br>
+    1. What do I want to learn or understand better?<br>
+       A. Since we haven't really started with implementing stuff but only been discussing possible user stories etc I think the definitions of user stories and tasks is still quite unclear/difficult to define.<br>
+       B. I want to understand and be able to produce good user stories at a higher rate.<br>
+       A->B. I need to look up different user stories to different epics, and actually write some even if they are to big/small, to gain a better understanding.<br>
+    2. How can I help someone else, or the entire team, to learn something new?<br>
+       A. I have experience in web design.<br>
+       B. I want to share my experience with the team.<br>
+       A->B. I can tell my team about my experiences.<br>
+    3. What is my contribution towards the teams use of Scrum?<br>
+       A. I have explained different git concepts/operations such as "rebase".<br>
+       B. I want to share more knowledge about git.<br>
+       A->B. Keep sharing knowledge when needed and if it exists.<br>
+    4. What is my contribution towards the team's deliveries?<br>
+       The same as Karin (see above). Created a shell web site, simple layout to have a base to work on during the next sprint.<br>
+<br>
 <br>
 <h2>Oscar</h2>
 <br> 
