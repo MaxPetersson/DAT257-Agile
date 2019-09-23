@@ -59,4 +59,21 @@ Individual reflection week #3
 <br> 
 <br>
 <h2>David</h2>  
+1.
+    I need to learn more about NeTEx and SIRI<br>
+    I should be able to tell the two schemas apart without getting a headache<br>
+    Reading only the parts relevant to our project in both schemas<br>
+
+2.
+    I can share my current knowledge of NeTEx and SIRI<br>
+    I should know exactly what part of the schemas are needed for our back end<br>
+    Reflect on current knowledge with group and see what exactly is needed, then get back to reading<br>
+
+3.
+    I had a part in putting words to our current vision, first epic, and user story<br>
+    There might be room for more epics and user stories<br>
+    We could discuss more according to INVEST<br>
+
+4.
+    I havent contributed to this weeks deliveries, other than updating social contract and trello<br>
 <br>
