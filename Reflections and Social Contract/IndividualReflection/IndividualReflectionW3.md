@@ -73,7 +73,22 @@ Striving to get the tasks done in the Trello "current sprint" section.
 <br> 
 <br>
 <h2>Max</h2>
-<br> 
+<br>
+	1. What do I want to learn or understand better?<br>
+		A. The balance of scrum mastering and development.
+		B. Not having reach a position where these parts are relevant it was hard to see the distinction between the two.
+		A->B. Will keep the same goal for another week.
+ 	2. How can I help someone else, or the entire team, to learn something new?<br>
+		A. I have some experience in working with scrum and server development.
+		B. I have some limited experience in server communicating.
+		A-B. I can make sure to offer my help to the person(s) affected.
+	3. What is my contribution towards the team use of Scrum? <br>
+		A. I was absent on the bigger work-meeting because of sickness.
+		B. I want to be with all the possible times when the scrum-board is altered or updated.
+	4. What is my contribution towards the team's deliveries?<br>
+		A. Taking notes and trying to find what the different members are interested in working with.
+		B. I want to scrum-master more.
+		A->B. Making clear with the team what my (scrum master) role means and be clear about it.
 <br>
 <h2>David</h2>  
 <br>
