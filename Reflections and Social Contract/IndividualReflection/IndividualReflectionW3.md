@@ -32,6 +32,23 @@ Individual reflection week #3
 <br>
 <br>
 <h2>Philip</h2>
+<h1>what do I want to learn or understand better?</h>
+A. I want to understand how to get the correct data into our actual homepage.
+B. I want to have knowledge out the database that we have access to.
+A->B. I need to study the api given on canvas.
+<h1>how can I help someone else, or the entire team, to learn something new?</h>
+A. We sometime drift away with discussions.
+B. I want more effecient meetings and settling things faster.
+A->B. I can try helping the team by sometime interrupt discussions irrelevant to the task.
+
+<h1>what is my contribution towards the team’s use of Scrum?</h>
+A. I do not know have to contribute towards the use of Scrum.
+B. I do not understand Scrum.
+A-B. I need to understand Scrum better so that I know what to improve on, and then help our team.
+
+<h1>what is my contribution towards the team’s deliveries?</h>
+Striving to get the tasks done in the Trello "current sprint" section.
+<br>
 <br>
 <br>
 <h2>Dara</h2> 
