@@ -59,8 +59,9 @@ Individual reflection week #3
 <br> 
 <br>
 <h2>David</h2>  
+<br>
 1.
-    I need to learn more about NeTEx and SIRI<br>
+    I want to learn more about NeTEx and SIRI<br>
     I should be able to tell the two schemas apart without getting a headache<br>
     Reading only the parts relevant to our project in both schemas<br>
 
