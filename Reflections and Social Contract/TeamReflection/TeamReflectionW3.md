@@ -12,3 +12,7 @@ The time we have focused on the actual project and deliverables has been mirrore
 
 *Social Contract and Effort*
 A lot of time has been spent on administration within the project. We still feel that the project’s deliverables match the time spent on them.
+
+
+
+ESI: 4,2 / 5,0.
