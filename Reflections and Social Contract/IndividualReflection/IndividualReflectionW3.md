@@ -70,6 +70,27 @@ Striving to get the tasks done in the Trello "current sprint" section.
 <br>
 <br>
 <h2>Oscar</h2>
+<br>
+	General comment: I have not been able to work during this entire week due to being sick.
+<br>
+	1. What do I want to learn or understand better?<br>
+		A. I want to know more about what goes in to making a website.
+		B. I want to be able to make a basic website.
+		A->B. I need to learn basic http, javascript and CSS.
+ 	2. How can I help someone else, or the entire team, to learn something new?<br>
+		A. Some times I feel that we take to much time on trivial decisions.
+		B. I want us to be able to make certain decisions faster without compromising results.
+		A->B. I need to keep focus on whats important during discussions and decision making.
+	3. What is my contribution towards the team use of Scrum? <br>
+		A. I have not contributed this week due to being sick the entire week.
+		B. I want to take part in the creation and breakdown of userstories.
+		A->B. I need to read up on how to create good userstories and taskbreakdown.
+	4. What is my contribution towards the team's deliveries?<br>
+		A. I have not been able to help with the deliveries this week, other than setting up my workspace.
+		B. I want to take part in the work as soon as posible and complete my first task.
+		A->B. I need to keep track on our trello board and look at the userstories.
+		
+<br>
 <br> 
 <br>
 <h2>Max</h2>
