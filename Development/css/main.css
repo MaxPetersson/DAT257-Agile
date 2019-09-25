@@ -192,6 +192,11 @@ tbody tr:hover {
   cursor: pointer;
 }
 
+.column0 {
+  width: 200px;
+  padding-left: 40px;
+}
+
 .column1 {
   width: 260px;
   padding-left: 40px;
