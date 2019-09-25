@@ -56,6 +56,20 @@ Individual reflection week #2
             
 <br>
 <h2>Oscar</h>
+    1.What do I want to learn or understand better?
+        A. I find it hard to know when my work is good enough.
+        B. I want to be able to easily tell when further effort wont drastically improve that which i am working on.
+        A->B. To go from A to B, I need to stop with my task and reflect upon whether further effort will bring more value.<br>
+        
+    2.How can i help someone else, or the entire team, to learn something new?<
+        I can research on something related to this course and share that information.
+        
+    3.What is my contribution towards the tea's use of scrum?
+        We have not begun our work with scrum yet, but during the lectures (lego building challange) I contributed with a good spirit
+        and reflections upon our failures and successes in working with scrum.
+        
+    4.What is my contribution towards the team's deliveries?
+        Good and bad project ideas (not all ideas can be good).<br>
 <br>
 <h2>Max</h>
 	1. What do I want to learn or understand better?
