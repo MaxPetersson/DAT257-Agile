@@ -39,10 +39,11 @@ Fulfills acceptence criteria
 PO says it is done
 
 
+Individual reflections and team reflections are to be written in the Reflections-branch.
 
 Naming new branches: find and use a suitable "prefix".
 If the purpose of the new branch has to do with project organization or other administrative stuff,
-name the branch "organization/" followed by what you will work on. See the individual reflections branch above.
+name the branch "organization/" followed by what you will work on.
 If it is a feature, use "feature/...-...-...", if it is a bugfix, "bugfix/...-...-...".
 
 A branch is created for every specific task. When that task is completed and >fully< functional with the current Development,
