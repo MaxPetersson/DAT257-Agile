@@ -69,6 +69,7 @@ Individual reflection week #2
         and reflections upon our failures and successes in working with scrum.
         
     4.What is my contribution towards the team's deliveries?
+    
         Good and bad project ideas (not all ideas can be good).<br>
 <br>
 <h2>Max</h>
