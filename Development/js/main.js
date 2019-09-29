@@ -32,4 +32,4 @@ function removeBirds(text) {
     return text.replace(/['"]+/g, '');
 }
 
-window.alert(rows[1][2]); //second row, third column
+//window.alert(rows[1][2]); //second row, third column
