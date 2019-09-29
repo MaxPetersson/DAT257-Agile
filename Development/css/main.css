@@ -1,3 +1,18 @@
+/*//////////////////////////////////////////////////////////////////
+[ VARIABLES ]*/
+:root{
+  /*Table fonts*/
+  --tableFont: monospace;
+  --tableHeadFont: monospace;
+  /*Table background colour for head #003656*/
+  --tableColourHead: #003656;
+  /*Table background colours for table body*/
+  --tableColour1: #fafeff;
+  --tableColour2: #9fd7e0;
+  /*Table background colour when hovering*/
+  --tableColourHover: #ffffff;
+}
+
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -144,7 +159,7 @@ table td, table th {
 }
 table thead tr {
   height: 60px;
-  background: #36304a;
+  background: var(--tableColourHead);
 }
 table tbody tr {
   height: 50px;
@@ -167,7 +182,7 @@ table td.r, table th.r {
 
 
 .table100-head th{
-  font-family: OpenSans-Regular;
+  font-family: var(--tableHeadFont);
   font-size: 18px;
   color: #fff;
   line-height: 1.2;
@@ -175,20 +190,19 @@ table td.r, table th.r {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #f5f5f5;
+  background-color: var(--tableColour2);
 }
 
 tbody tr {
-  font-family: OpenSans-Regular;
+  font-family: var(--tableFont);
   font-size: 15px;
-  color: #808080;
+  background-color: var(--tableColour1);
+  color: black;
   line-height: 1.2;
   font-weight: unset;
 }
 
 tbody tr:hover {
-  color: #555555;
-  background-color: #f5f5f5;
   cursor: pointer;
 }
 
