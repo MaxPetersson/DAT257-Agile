@@ -12,7 +12,6 @@ Team Reflection W4.
 	The agile practise of having a scrum master significantly increased our efficiency during meeting. Specifically compared to last week when our scrum master was sick, and not replaced, we almost halved the time for our meeting.
 
 *Application of Scrum
-
 	Even though a lot of our time has gone into refining scope and its different perspectives, we feel it is in perfect relation to literature and lectures. According to provided lectures, our reflections are in line with what scrum beginners' should be.
 
 
