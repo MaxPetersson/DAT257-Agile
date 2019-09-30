@@ -23,12 +23,11 @@ Individual reflection week #3
 <br>
 <h2>Dara</h2> 
 <br>
-  le layout to have a base to work on during the next sprint.<br>
+  
 <br>
 <br>
 <h2>Oscar</h2>
 <br>
-	General comment: I have not been able to work during this entire week due to being sick.
 <br>
 
 		
@@ -37,7 +36,7 @@ Individual reflection week #3
 <br>
 <h2>Max</h2>
 <br>
-
+	<h
 <br>
 <h2>David</h2>  
 <br>
