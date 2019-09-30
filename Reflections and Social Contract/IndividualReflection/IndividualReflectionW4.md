@@ -13,7 +13,24 @@ Individual reflection week #3
 <br>
 <h2>Karin</h2> 
 <br>
-    
+<br>
+    1. What do I want to learn or understand better?<br>
+        A. I find building a functioning website from scratch harder than I thought it would be.<br>
+        B. I want to learn how to set up a website. More specifically how to use JavaScript to build html elements and dynamically fill them with information.<br>
+        A->B. To achive B, I need to search the web for info and find out what works best/easiest.<br>
+    2. How can I help someone else, or the entire team, to learn something new?<br>
+        A. At the moment I don't know javascript good enough to teach any of the other members to do something. <br>
+        B. I want to be able to show how to build html elements using javascript.<br>
+        A->B. Once I get comfortable with modifying/building html with js I'll be able to show the others how it can work. <br>
+    3. What is my contribution towards the team’s use of Scrum?<br>
+        A. I've code reviewed a finished task. <br>
+        B. I want to work faster and more efficiently. Asking for help when/if needed.<br>
+        A->B. To achieve B I need to communicate more with the group when we work remotely.<br>
+    4. What is my contribution towards the team’s deliveries?<br>
+        A. I took on a task that I wasn't able to finish. Asked for help a bit too late. <br>
+		B. I want to start working on the tasks I take on earlier and make sure to know exactly what I'm doing, or else ask for help. <br>
+		A->B. I need to become better at communicating any uncertainties. <br>
+<br>
 <br>
 <br>
 <h2>Philip</h2>
