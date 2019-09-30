@@ -56,6 +56,23 @@ Creating small tasks to finish for the sprint.
 <br>
 <h2>Dara</h2> 
 <br>
+<br>
+    1, What do I want to learn or understand better?<br>
+        A, I don't know much about databases.<br>
+        B. I want to learn more about databases.<br>
+        A->B. I can ask my peers about databases since they know more than me.<br>
+    2. How can I help someone else, or the entire team, to learn something new?<br>
+        A. I know javascript, json library, etc.<br>
+        B. I want to explain the bridge between javascript, html and the server/database.<br>
+        A->B. I can use my knowledge and try to explain with best effort.<br>
+    3. What is my contribution towards the team's use of Scrum?<br>
+        A. I have completed tasks and code reviewed and defined different tasks.<br>
+        B. I want to be even better and faster with doing (A).<br>
+        A->B. If I just continue working with scrum I think I will be more and more efficient.<br>
+    4. What is my contribution towards the team's deliveries?<br>
+        A. I completed tasks that are needed for the project to advance.<br>
+        B. I'm having issues understanding some tasks, sometimes it takes more time than it should.<br>
+        A->B I want to be able to understand tasks "faster" in order to work more efficiently.<br>
   
 <br>
 <br>
