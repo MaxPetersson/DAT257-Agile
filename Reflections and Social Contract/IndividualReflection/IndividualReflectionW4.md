@@ -105,5 +105,20 @@ Creating small tasks to finish for the sprint.
 <br>
 <h2>David</h2>  
 <br>
-
+    1. What do I want to learn or understand better?<br>
+        A. I want to improve my vertical slicing<br>
+        B. I want every sprint to give maximum value<br>
+        A->B. I will consult INVEST & SMART criteria <br>
+    2. How can I help someone else, or the entire team, to learn something new?<br>
+        A. I'm not familiar enough with web programming<br>
+        B. I need to study specific topics and share if its relevant<br>
+        A->B. I'll try to discuss my learnings to spread it effectively<br>
+    3. What is my contribution towards the team's use of Scrum?<br>
+        A. I have completed tasks and discussed similarities<br>
+        B. I want to minimize dependencies between tasks<br>
+        A->B. Ill share my thoughts on which tasks are accompanied with my current one.<br>
+    4. What is my contribution towards the team's deliveries?<br>
+        A. I completed tasks<br>
+        B. It's hard to make checklists for small tasks<br>
+        A->B I'll try to make checklists according to pseudocode or similar ways of working<br>
 <br>
