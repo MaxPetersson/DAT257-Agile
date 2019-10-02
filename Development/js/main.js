@@ -19,6 +19,24 @@ var mockupEntries = [{"Origin": "Kiel", "Destination": "Gothenburg", "oHarbour":
     {"Origin": "Stockholm", "Destination": "Gothenburg", "oHarbour": "Bilhamnen", "dHarbour": "Masthuggskajen", "Ship": "Vinga", "dTime": "04/05/19 22:41", "aTime": "04/05/19 18:41"},
     {"Origin": "Fredrikstad", "Destination": "Gothenburg", "oHarbour": "Ryahamnen", "dHarbour": "Masthuggskajen", "Ship": "Vinga", "dTime": "13/05/19 06:35", "aTime": "13/05/19 04:35"}]
 
+/**
+ * @param {*} city Use this function to get a new display with every row related to searched city.
+ */
+function filterCity(city){
+    // Remove current shipTable content
+    document.getElementById("shipTable").innerHTML = "";
+
+    var sortedCities = [];
+    mockupEntries.forEach(row => {
+        if(row.Origin == city || row.Destination == city)
+        sortedCities.push(row);
+    });
+
+    // Apply new content
+    generateTable(table, sortedCities);
+    generateTableHead(table, data);
+}
+
 function generateTableHead(table, data) {
     let thead = table.createTHead();
     let row = thead.insertRow();
