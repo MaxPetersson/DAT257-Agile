@@ -30,6 +30,23 @@ function generateTableHead(table, data) {
         row.appendChild(th);
     }
 }
+function test(){
+    alert("msg : any");
+}
+function filterHarbour(textSearch){
+    // Remove current shipTable content
+    document.getElementById("shipTable").innerHTML = "";
+
+    var sortedHarbours = [];
+    mockupEntries.forEach(row => {
+        if(row.oHarbour == textSearch || row.dHarbour == textSearch)
+        sortedHarbours.push(row);
+    });
+
+    //Apply new 
+    generateTable(table, sortedHarbours);
+    generateTableHead(table, data);
+}
 
 function generateTable(table, data) {
     for (let element of data) {
