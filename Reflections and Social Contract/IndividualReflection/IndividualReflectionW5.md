@@ -13,14 +13,21 @@ Individual reflection week #5
 <h2>Karin</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. Today I know more about building html elements dynamically using JavaScript.<br>
+        B. I want to continue to learn how to populate html elements with information based on user inputs.<br>
+        A->B. To achive B, I need to continue to search the web for info and not hesitate to change direction when something doesn't work.<br>
     2. How can I help someone else, or the entire team, to learn something new?<br>
+        A. This sprint, I was able to co-program with other group members and solve tasks together.<br>
+        B. I want to continue to be open towards trying out other group members' ideas to solve problems.<br>
+        A->B. To achieve B, I'll encourage the group to start working early on in the sprint (minimize time spent on discussing things thar might be unneeded) and work together when possible (maximize time spent co-programming.<br>
     3. What is my contribution towards the team’s use of Scrum?<br>
+        A. This sprint I've contributed more efficiently than last sprint, finishing two tasks related to the current user stories together with a group mate as well as reviewed code for other tasks. I did not work remotely this sprint.<br>
+        B. I want to continue to work the same way.<br>
+        A->B. To achieve B I need to make sure to ask for help/other ideas when/if needed.<br>
     4. What is my contribution towards the team’s deliveries?<br>
-    
-        
+        A. I felt that the project moved forward pretty well this sprint. I was able to start working much earlier than last sprint, and with user stories and tasks that we would finsih rather quickly.<br>
+		B. I want to keep working the same way.<br>
+		A->B. I should continue to communicate any uncertainties and work as efficiently as possible.<br>
 <br>
 <h2>Philip</h2> 
 <br>
