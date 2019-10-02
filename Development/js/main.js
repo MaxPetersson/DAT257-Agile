@@ -83,3 +83,40 @@ let table = document.getElementById("shipTable");
 let data = Object.keys(mockupEntries[0]); //column names for the table header
 generateTable(table, mockupEntries);
 generateTableHead(table, data);
+<<<<<<< HEAD
+=======
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+  // Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        var harbours = []
+        for (row in this.mockupEntries){
+            if (!harbours.contains(this.mockupEntries[row].oHarbour))
+                harbours += this.mockupEntries[row].oHarbour
+            if (!harbours.contains(this.mockupEntries[row].dHarbour))
+                harbours += this.mockupEntries[row].dHarbour;
+        }
+        for (h in harbours){
+            var newMenuItem = document.createElement("p");
+            var text = document.createTextNode(h);
+            newMenuItem.appendChild(text);
+            document.getElementById("myDropdown").appendChild(newMenuItem);
+        }
+
+        for (i = 0; i < harbours.length; i++) {
+            var openDropdown = harbours[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+>>>>>>> c433beca02d5acf12330bc31a3b906ce2ed8ce0e
