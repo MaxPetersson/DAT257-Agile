@@ -13,7 +13,16 @@
 			<div class="table100">
 				<!-- Button used for filter by, in this case, Kiel and display them -->
 				<button onclick="filterCity('Kiel');">Filter by Kiel</button>
-				<button onclick="filterHarbour('Arendal');">Filter by Arendal</button>
+				<form>
+					<select name = "dropdown" onchange="filterHarbour(this.value)">
+						<option value = "Harbour" selected>Harbour</option>
+						<option value = "Arendal">Arendal</option>
+						<option value = "Bilhamnen">Bilhamnen</option>
+						<option value = "Masthuggskajen">Masthuggskajen</option>
+						<option value = "Ryahamnen">Ryahamnen</option>
+						<option value = "Skandiahamnen">Skandiahamnen</option>
+					</select>
+				</form>
 				<table id="shipTable"></table>
 
 			</div>

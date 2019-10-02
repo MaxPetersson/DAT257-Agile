@@ -58,10 +58,15 @@ function filterHarbour(harbour){
     document.getElementById("shipTable").innerHTML = "";
 
     var sortedHarbours = [];
-    mockupEntries.forEach(row => {
-        if(row.oHarbour == harbour || row.dHarbour == harbour)
-        sortedHarbours.push(row);
-    });
+    if(harbour == "Harbour"){
+        sortedHarbours = mockupEntries; //Display all data
+    }
+    else {
+        mockupEntries.forEach(row => {
+            if(row.oHarbour == harbour || row.dHarbour == harbour)
+            sortedHarbours.push(row);
+        });
+    }
 
     // Apply new content
     generateTable(table, sortedHarbours);
