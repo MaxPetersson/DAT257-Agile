@@ -31,6 +31,25 @@ function generateTableHead(table, data) {
     }
 }
 
+/**
+ * 
+ * @param {*} harbour Use this function to get a new display with every row related to searched harbour.
+ */
+function filterHarbour(harbour){
+    // Remove current shipTable content
+    document.getElementById("shipTable").innerHTML = "";
+
+    var sortedHarbours = [];
+    mockupEntries.forEach(row => {
+        if(row.oHarbour == harbour || row.dHarbour == harbour)
+        sortedHarbours.push(row);
+    });
+
+    // Apply new content
+    generateTable(table, sortedHarbours);
+    generateTableHead(table, data);
+}
+
 function generateTable(table, data) {
     for (let element of data) {
         let row = table.insertRow();
