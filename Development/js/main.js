@@ -33,17 +33,22 @@ function generateTableHead(table, data) {
 function test(){
     alert("msg : any");
 }
-function filterHarbour(textSearch){
+
+/**
+ * 
+ * @param {*} harbour Use this function to get a new display with every row related to searched harbour.
+ */
+function filterHarbour(harbour){
     // Remove current shipTable content
     document.getElementById("shipTable").innerHTML = "";
 
     var sortedHarbours = [];
     mockupEntries.forEach(row => {
-        if(row.oHarbour == textSearch || row.dHarbour == textSearch)
+        if(row.oHarbour == harbour || row.dHarbour == harbour)
         sortedHarbours.push(row);
     });
 
-    //Apply new 
+    // Apply new content
     generateTable(table, sortedHarbours);
     generateTableHead(table, data);
 }
