@@ -20,12 +20,6 @@ var mockupEntries = [{"Origin": "Kiel", "Destination": "Gothenburg", "oHarbour":
     {"Origin": "Stockholm", "Destination": "Gothenburg", "oHarbour": "Bilhamnen", "dHarbour": "Masthuggskajen", "Ship": "Vinga", "dTime": "04/05/19 22:41", "aTime": "04/05/19 18:41"},
     {"Origin": "Fredrikstad", "Destination": "Gothenburg", "oHarbour": "Ryahamnen", "dHarbour": "Masthuggskajen", "Ship": "Vinga", "dTime": "13/05/19 06:35", "aTime": "13/05/19 04:35"}]
 
-// var i;
-// for (i in mockupEntries){
-//     newRow = mockupEntries[i];
-//     console.log(newRow.Origin + ' to ' + newRow.Destination);
-// }
-
 function generateTableHead(table, data) {
     let thead = table.createTHead();
     let row = thead.insertRow();
