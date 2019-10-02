@@ -27,10 +27,15 @@ function filterCity(city){
     document.getElementById("shipTable").innerHTML = "";
 
     var sortedCities = [];
-    mockupEntries.forEach(row => {
-        if(row.Origin == city || row.Destination == city)
-        sortedCities.push(row);
-    });
+    if(city == "City"){
+        sortedCities = mockupEntries; //Display all data
+    }
+    else {
+        mockupEntries.forEach(row => {
+            if(row.Origin == city || row.Destination == city)
+            sortedCities.push(row);
+        });
+    }
 
     // Apply new content
     generateTable(table, sortedCities);

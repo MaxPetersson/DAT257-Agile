@@ -11,8 +11,17 @@
 	<div class="container-table100">
 		<div class="wrap-table100">
 			<div class="table100">
-				<!-- Button used for filter by, in this case, Kiel and display them -->
-				<button onclick="filterCity('Kiel');">Filter by Kiel</button>
+				<form>
+					<select name = "dropdownCities" onchange="filterCity(this.value)">
+						<option value = "City" selected>City</option>
+						<option value = "Aland">Aland</option>
+						<option value = "Frederikshavn">Frederikshavn</option>
+						<option value = "Fredrikstad">Fredrikstad</option>
+						<option value = "Gothenburg">Gothenburg</option>
+						<option value = "Kiel">Kiel</option>
+						<option value = "Stockholm">Stockholm</option>
+					</select>
+				</form>
 				<form>
 					<select name = "dropdown" onchange="filterHarbour(this.value)">
 						<option value = "Harbour" selected>Harbour</option>
