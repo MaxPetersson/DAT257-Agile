@@ -30,9 +30,6 @@ function generateTableHead(table, data) {
         row.appendChild(th);
     }
 }
-function test(){
-    alert("msg : any");
-}
 
 /**
  * 
