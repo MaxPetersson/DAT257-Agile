@@ -4,10 +4,10 @@
 [ FONT ]*/
 
 
-@font-face {
+/* @font-face {
   font-family: OpenSans-Regular;
   src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
-}
+} */
 
 
 
@@ -96,11 +96,6 @@ iframe {
 
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
-
-.limiter {
-  width: 100%;
-  margin: 0 auto;
-}
 
 .container-table100 {
   width: 100%;
