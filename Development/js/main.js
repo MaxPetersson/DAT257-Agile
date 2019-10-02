@@ -46,4 +46,3 @@ let table = document.getElementById("shipTable");
 let data = Object.keys(mockupEntries[0]); //column names for the table header
 generateTable(table, mockupEntries);
 generateTableHead(table, data);
-    {"Origin": "Aland", "Destination": "Gothenburg", "oHarbour": "Masthuggskajen", "dHarbour": "Arendal", "Ship": "Vinga", "dTime": "19/04/19 22:35", "aTime": "19/04/19 15:35"},
