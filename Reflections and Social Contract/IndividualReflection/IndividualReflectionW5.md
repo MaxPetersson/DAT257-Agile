@@ -73,15 +73,26 @@ Individual reflection week #5
 <br>
 <h2>Oscar</h2> 
 <br>
-    1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
-    2. How can I help someone else, or the entire team, to learn something new?<br>
-    3. What is my contribution towards the team’s use of Scrum?<br>
-    4. What is my contribution towards the team’s deliveries?<br>
-    
-        
+	1. What do I want to learn or understand better?<br>
+		A. I have become better at programming a website and know more about how to call functions from a JS in HTTP.<br>
+		B. I want to become better at making tasks vertical.<br>
+		A->B. I need to think about how touch all layers, and write tasks incremental. <br>
+ 	2. How can I help someone else, or the entire team, to learn something new?<br>
+		A. I still feel that we can follow the practice of scrum better. We are doing as much of it as we can, but I <br>
+		still think that tere are room for improvement.<br>
+		B. I want to be able to plan ahead so that we can work more efficient when the entire group meet.<br>
+		A->B. I want us to make new estimates.<br>
+	3. What is my contribution towards the team use of Scrum? <br>
+		A. I rewrote our US according to the feedback we had gotten. Now they are written so that it is easier for the <br>
+		product owner to see the value.<br>
+		B. I want to be better at estimating resourses of tasks and US. I also want to be able to write good vertical tasks.<br>
+		A->B. I have to keep estimating and re-estimating US and tasks. I need to write icremental tasks that involves<br>
+        all "layers".<br>
+	4. What is my contribution towards the team's deliveries?<br>
+		A. I compleated 2 userstories together with my team. We co-programmed and woked as a unit. I kept focus on<br>
+        delivering results the easiest way possible.<br>
+		B. I want to stay on the path of delivering results, don't over complicate solutions.<br>
+		A->B. Work incrementally. Make sure it works before making it grand and "coplicated".<br>   
 <br>
 <h2>Max</h2> 
 <br>

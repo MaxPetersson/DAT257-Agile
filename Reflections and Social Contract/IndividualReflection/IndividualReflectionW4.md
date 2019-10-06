@@ -78,9 +78,25 @@ Creating small tasks to finish for the sprint.
 <br>
 <h2>Oscar</h2>
 <br>
-<br>
-
-		
+	1. What do I want to learn or understand better?<br>
+		A. During the week I have been able to learn the basics of making a website.<br>
+		I know now how http,JS and CSS can work together. But i know far from everything.<br>
+		B. I want to be able to make a more advanced website.<br>
+		A->B. I need to practice web development and trying to make new, more advanced and challenging features. <br>
+ 	2. How can I help someone else, or the entire team, to learn something new?<br>
+		A. I feel that we dont spend as much time taking decisions as we used to anymore.<br>
+		B. I want the group to stay focused on practicing scrum instead of focusing on making a website.<br>
+		A->B. I need to make sure we follow scrum procedures and work flow.<br>
+	3. What is my contribution towards the team use of Scrum? <br>
+		A. I took part in the ceation of userstories and task breakdown. Altho our userstories will turned out to be too<br>
+		technical.<br>
+		B. I want to write better userstories and I want to be able to write vertical tasks.<br>
+		A->B. I need to reflect upon the feedback we have gotten regarding our US and tasks and apply them on new US and tasks.<br>
+	4. What is my contribution towards the team's deliveries?<br>
+		A. I completed my first task this week. That felt good.<br>
+		B. I want to make sure we do not take on too much for next weeks sprint, but I also want to make sure we deliver something.<br>
+		A->B. I need to stay focused on delivering results. If it can be done easy, do it that way first. This way we always have <br>
+		something to deliver.<br>
 <br>
 <br> 
 <br>
