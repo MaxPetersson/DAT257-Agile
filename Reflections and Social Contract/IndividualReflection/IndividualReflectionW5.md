@@ -96,7 +96,7 @@ Individual reflection week #5
 <h2>Max</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
+        A. Hello
         B. 
         A->B. 
     2. How can I help someone else, or the entire team, to learn something new?<br>
