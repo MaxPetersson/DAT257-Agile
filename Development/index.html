@@ -32,6 +32,13 @@
 						<option value = "Skandiahamnen">Skandiahamnen</option>
 					</select>
 				</form>
+				<form>
+					<select name = "dropdownCompanies" onchange="filterCompany(this.value)">
+						<option value = "Company" selected>Company</option>
+						<option value = "Stena Line">Stena Line</option>
+						<option value = "Silja Line">Silja Line</option>
+					</select>
+				</form>
 				<table id="shipTable"></table>
 
 			</div>
