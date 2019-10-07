@@ -96,13 +96,20 @@ Individual reflection week #5
 <h2>Max</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. Hello
-        B. 
-        A->B. 
+        A. The balance of scrum mastering and development.
+        B. Not having reach a position where these parts are relevant it was hard to see the distinction between the two.
+        A->B. Will keep the same goal for another week.
     2. How can I help someone else, or the entire team, to learn something new?<br>
-    3. What is my contribution towards the team’s use of Scrum?<br>
-    4. What is my contribution towards the team’s deliveries?<br>
-    
+        A. I have some experience in working with scrum and server development.
+        B. I have some limited experience in server communicating.
+        A-B. I can make sure to offer my help to the person(s) affected.
+    3. What is my contribution towards the team use of Scrum? <br>
+        A. I was absent on the bigger work-meeting because of sickness.
+        B. I want to be with all the possible times when the scrum-board is altered or updated.
+    4. What is my contribution towards the team's deliveries?<br>
+        A. My contribution was lower than average because of falling ill. However I managed to help on other things than pure development.
+        B.
+        A->B. 
         
 <br>
 <h2>David</h2>
