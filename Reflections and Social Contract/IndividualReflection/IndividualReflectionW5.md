@@ -107,13 +107,12 @@ Individual reflection week #5
 <br>
 <h2>David</h2>
 <br>
-    1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
-    2. How can I help someone else, or the entire team, to learn something new?<br>
-    3. What is my contribution towards the team’s use of Scrum?<br>
-    4. What is my contribution towards the team’s deliveries?<br>
+    I fell ill at the end of last sprint and haven't been able to neither reflect nor work.<br>
+
+    I fell behind in the project.<br>
+    I want to catch up.<br>
+    I should participate in meetings and read last weeks protocols.<br>
+
     
         
 <br>
