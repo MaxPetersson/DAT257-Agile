@@ -32,22 +32,21 @@ Individual reflection week #5
 <h2>Philip</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. I do not know how important it is to stick to the commited user stories(and not more). (Why cant we pick more UserStories if we have time?)
+        A. I do not know how important it is to stick to the commited user stories(and not more/less). (Why cant we pick more UserStories if we have time?)
         B. I want to understand and know how to use Scrum effectivly for results, not because "scrum rules said so"
-        A->B. I need to talk to one of the teachers and hopefully get good feedback, they probably know.
+        A->B. I need to talk to one of the teachers our group and get good feedback, they probably know.
     2. How can I help someone else, or the entire team, to learn something new?<br>
-        A. 
-        B. 
-        A->B.
+        A. Sometimes we are talking very technical about how something should be done, even though we might even never do it.
+        B. I wish we could drop conversations that will probably never lead to anything productive.
+        A->B. I'll strive to ask relevant questions in those discussions and perhaps we can relise it is not needed.
     3. What is my contribution towards the team’s use of Scrum?<br>
         A. We sometimes make things more complicated the we need.
         B. I would like the team to push for results and perhaps not the most elegant solutions.
         A->B. I will encourage the team to go for the most simple solution that comes to mind so that we can get things done.
     4. What is my contribution towards the team’s deliveries?<br>
-        A. I 
-        B. 
-        A->B.
-    Making tasks and codeReviewing and handling git merge conflicts.
+        A. I helped making all the cards done for our sprint.
+        B. I want to continue doing this until project is over.
+        A->B.I will keep doing tasks and codeReviewing and handling git merge conflicts.
     
         
 <br>
