@@ -109,9 +109,9 @@ Individual reflection week #5
 <br>
     I fell ill at the end of last sprint and haven't been able to neither reflect nor work.<br>
 
-    I fell behind in the project.<br>
-    I want to catch up.<br>
-    I should participate in meetings and read last weeks protocols.<br>
+    I fell behind in the project.
+    I want to catch up.
+    I should participate in meetings and read last weeks protocols.
 
     
         
