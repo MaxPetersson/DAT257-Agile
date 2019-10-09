@@ -20,12 +20,10 @@ var mockupEntries = [{"Origin": "Kiel", "Destination": "Gothenburg", "oHarbour":
 
 let table;
 let data;
-let location = null;
-
+let selectedHarbour;
 
 
 window.onload = function() {
-    alert("hello");
     data = Object.keys(mockupEntries[0]); 
     table = document.getElementById("testTable");
 
@@ -42,9 +40,7 @@ window.onload = function() {
 };
 
 function selectedLocation(selected){
-    console.log(selected);
-    location = selected;
-    console.log("Location: " + location);
+    selectedHarbour = selected;
 }
 
 function submitted(){
@@ -62,7 +58,7 @@ function submitted(){
     }
 
 
-    if(location != null || chosenPreset==null){
+    if(chosenPreset==null){
         alert("Please chose location and preset");
     }
     else{
@@ -81,18 +77,21 @@ function submitted(){
 function formArguments(preset){
     if(preset == "preset1"){
         //Departures - Detailed
-        var firstStep = filterHarbourDepartures(mockupEntries, location);
-        console.log("location:" + location);
+        var firstStep = filterHarbourDepartures(mockupEntries, selectedHarbour);
         generateTable(table, firstStep);
+        generateTableHead(table, Object.keys(firstStep[0]));
 
     }
     if(preset == "preset2"){
         //Departures - LIght
 
+
         
     }
      if(preset == "preset3"){
-        alert("Preset 3")
+        //Arrivals - Detailed
+        generateTable(table, filterHarbourArrivals(mockupEntries, selectedHarbour));
+        generateTableHead(table, Object.keys(filterHarbourArrivals(mockupEntries, selectedHarbour)[0]))
     }
     if(preset == "preset4"){
         alert("Preset 4");
@@ -169,8 +168,10 @@ function filterHarbourDepartures(table, harbour){
     }
     else {
         table.forEach(row => {
-            if(row.oHarbour == harbour)
-            sortedHarbours.push(row);
+            if(row.oHarbour == harbour){
+            	sortedHarbours.push(row);
+            }
+            
         });
     }
     return sortedHarbours;
