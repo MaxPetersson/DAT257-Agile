@@ -107,7 +107,7 @@ function drawTable(selectedKey){
 
 
 
-function generateTableHead(table, data, selectedKey) {
+function generateTableHead(table, data) {
     let thead = table.createTHead();
     let row = thead.insertRow();
     row.className = "table100-head";
@@ -124,7 +124,7 @@ function generateTableHead(table, data, selectedKey) {
 
 
 
-function generateTable(table, data, selectedKey) {
+function generateTable(table, data) {
     for (let element of data) {
         console.log("element: " + element);
         let row = table.insertRow();
