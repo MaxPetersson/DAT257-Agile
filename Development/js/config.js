@@ -64,11 +64,8 @@ function submitted(){
     else{
 
         document.getElementById("view").style.visibility = 'visible';
-        document.getElementById("options").style.visibility = 'hidden';
+        document.getElementById("options").remove();
         formArguments(chosenPreset);
-
-        //drawTable(chosenDirection);
-        
 
     }
 
@@ -78,53 +75,47 @@ function formArguments(preset){
     if(preset == "preset1"){
         //Departures - Detailed
         var firstStep = filterHarbourDepartures(mockupEntries, selectedHarbour);
-        generateTable(table, firstStep);
-        generateTableHead(table, Object.keys(firstStep[0]));
+        var secondStep = removeColumns("Origin", firstStep);
+        var thirdStep = removeColumns("oHarbour", secondStep);
+        generateTable(table, thirdStep);
+        generateTableHead(table, Object.keys(thirdStep[0]));
 
     }
     if(preset == "preset2"){
         //Departures - LIght
-
-
+        var firstStep = filterHarbourDepartures(mockupEntries, selectedHarbour);
+        var secondStep = removeColumns("Origin", firstStep);
+        var thirdStep = removeColumns("oHarbour", secondStep);
+        var fourthStep = removeColumns("Ship", thirdStep);
+        var fifthStep = removeColumns("aTime", fourthStep);
+        generateTable(table, fifthStep);
+        generateTableHead(table, Object.keys(fifthStep[0]));
         
     }
      if(preset == "preset3"){
         //Arrivals - Detailed
-        generateTable(table, filterHarbourArrivals(mockupEntries, selectedHarbour));
-        generateTableHead(table, Object.keys(filterHarbourArrivals(mockupEntries, selectedHarbour)[0]))
+        var firstStep = filterHarbourArrivals(mockupEntries, selectedHarbour);
+        var secondStep = removeColumns("Destination", firstStep);
+        var thirdStep = removeColumns("dHarbour", secondStep);
+        generateTable(table, thirdStep);
+        generateTableHead(table, Object.keys(thirdStep[0]));
     }
     if(preset == "preset4"){
-        alert("Preset 4");
+        var firstStep = filterHarbourArrivals(mockupEntries, selectedHarbour);
+        var secondStep = removeColumns("Destination", firstStep);
+        var thirdStep = removeColumns("dHarbour", secondStep);
+        var fourthStep = removeColumns("Ship", thirdStep);
+        var fifthStep = removeColumns("dTime", fourthStep);
+        generateTable(table, fifthStep);
+        generateTableHead(table, Object.keys(fifthStep[0]));
     }
 }
 
-
-
-
-function drawTable(selectedKey){
-
-    console.log("Draw table called with " + selectedKey);
-
-    
-    generateTable(table, mockupEntries, selectedKey);
-    
-    generateTableHead(table, data, selectedKey);
-
-}
-
-
-
-function filter(){
-    clearTable()
-    var cityValue = document.getElementById("dropdownCities").value
-    var sortedCities = filterCity(mockupEntries, cityValue);
-    
-    var harbourValue = document.getElementById("dropdownHarbour").value
-    var sortedHarbours = filterHarbour(sortedCities, harbourValue)
-
-    var companyValue = document.getElementById("dropdownCompanies").value
-    var sortedCompanies = filterCompany(sortedHarbours, companyValue)
-    drawTable(sortedCompanies);
+function removeColumns(toBeRemoved, data) {
+    data.forEach(row => {
+        delete row[toBeRemoved];
+    })
+    return data;
 }
 
 /**
