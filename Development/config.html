@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Config page</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<script src="js/config.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<div id="options" style="border:1px solid black">
+			<div id = "locationSelect">
+				<form>
+					<select name = "dropdownHarbours" onchange="selectedLocation(this.value)">
+						<option value = "Harbour" selected>Harbour</option>
+						<option value = "Arendal">Arendal</option>
+						<option value = "Bilhamnen">Bilhamnen</option>
+						<option value = "Masthuggskajen">Masthuggskajen</option>
+						<option value = "Ryahamnen">Ryahamnen</option>
+						<option value = "Skandiahamnen">Skandiahamnen</option>
+					</select>
+				</form>
+			</div>
+
+			<form id="formId" name="DirectionForm" style="border:1px solid black;">
+				<label>
+					<input type="radio" name="directions" value="preset1"/>
+					Preset 1 - Departures - Detailed
+					<!--<img src="images/preset.png" height="200px" width="200px"></img>-->
+				</label>
+				<label>
+					<input type="radio" name="directions" value="preset2"/>
+					Preset 2 - Departures - Light
+					<!--<img src="images/preset.png" height="200px" width="200px"></img>-->
+				</label>
+				<label>
+					<input type="radio" name="directions" value="preset3"/>
+					Preset 3 - Departures - Detailed
+					<!--<img src="images/preset.png" height="200px" width="200px"></img>-->
+				</label>
+				<label>
+					<input type="radio" name="directions" value="preset4"/>
+					Preset 4 - Departures - Light
+					<!--<img src="images/preset.png" height="200px" width="200px"></img>-->
+				</label>
+		
+			</form>
+
+			<div id="confirm" style="border:1px solid black;">
+			</div>
+		</div>
+
+		<div id="view" style="border:1px solid black">
+			<div class="container-table100">
+				<div class="wrap-table100">
+					<div class="table100">
+						<table id="testTable">
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		
+	
+	</div>
+
+	
+</body>
+
+</html>
