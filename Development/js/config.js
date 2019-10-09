@@ -20,11 +20,12 @@ var mockupEntries = [{"Origin": "Kiel", "Destination": "Gothenburg", "oHarbour":
 
 let table;
 let data;
-let locationSelected = false;
+let location = null;
 
 
 
 window.onload = function() {
+    alert("hello");
     data = Object.keys(mockupEntries[0]); 
     table = document.getElementById("testTable");
 
@@ -41,8 +42,9 @@ window.onload = function() {
 };
 
 function selectedLocation(selected){
-    locationSelected = true;
-    let location = selected;
+    console.log(selected);
+    location = selected;
+    console.log("Location: " + location);
 }
 
 function submitted(){
@@ -60,16 +62,17 @@ function submitted(){
     }
 
 
-    if(!locationSelected || chosenPreset==null){
+    if(location != null || chosenPreset==null){
         alert("Please chose location and preset");
     }
     else{
 
+        document.getElementById("view").style.visibility = 'visible';
+        document.getElementById("options").style.visibility = 'hidden';
         formArguments(chosenPreset);
 
         //drawTable(chosenDirection);
-        document.getElementById("view").style.visibility = 'visible';
-        document.getElementById("options").style.visibility = 'hidden';
+        
 
     }
 
@@ -77,10 +80,16 @@ function submitted(){
 }
 function formArguments(preset){
     if(preset == "preset1"){
-        alert("Preset 1")
+        //Departures - Detailed
+        var firstStep = filterHarbourDepartures(mockupEntries, location);
+        console.log("location:" + location);
+        generateTable(table, firstStep);
+
     }
     if(preset == "preset2"){
-        alert("preset 2");
+        //Departures - LIght
+
+        
     }
      if(preset == "preset3"){
         alert("Preset 3")
@@ -106,35 +115,118 @@ function drawTable(selectedKey){
 
 
 
+function filter(){
+    clearTable()
+    var cityValue = document.getElementById("dropdownCities").value
+    var sortedCities = filterCity(mockupEntries, cityValue);
+    
+    var harbourValue = document.getElementById("dropdownHarbour").value
+    var sortedHarbours = filterHarbour(sortedCities, harbourValue)
+
+    var companyValue = document.getElementById("dropdownCompanies").value
+    var sortedCompanies = filterCompany(sortedHarbours, companyValue)
+    drawTable(sortedCompanies);
+}
+
+/**
+ * @param {*} city Use this function to get a new display with every row related to searched city.
+ */
+function filterCity(table, city){
+    var sortedCities = [];
+    if(city == "City"){
+        sortedCities = table; //Display all data
+    }
+    else {
+        table.forEach(row => {
+            if(row.Origin == city || row.Destination == city)
+            sortedCities.push(row);
+        });
+    }
+    return sortedCities;
+}
+
+/**
+ * @param {*} harbour Use this function to get a new display with every row related to searched harbour.
+ */
+function filterHarbour(table, harbour){
+    var sortedHarbours = [];
+    if(harbour == "Harbour"){
+        sortedHarbours = table; //Display all data
+    }
+    else {
+        table.forEach(row => {
+            if(row.oHarbour == harbour || row.dHarbour == harbour)
+            sortedHarbours.push(row);
+        });
+    }
+    return sortedHarbours;
+}
+
+function filterHarbourDepartures(table, harbour){
+    var sortedHarbours = [];
+    if(harbour == "Harbour"){
+        sortedHarbours = table; //Display all data
+    }
+    else {
+        table.forEach(row => {
+            if(row.oHarbour == harbour)
+            sortedHarbours.push(row);
+        });
+    }
+    return sortedHarbours;
+}
+
+function filterHarbourArrivals(table, harbour){
+    var sortedHarbours = [];
+    if(harbour == "Harbour"){
+        sortedHarbours = table; //Display all data
+    }
+    else {
+        table.forEach(row => {
+            if(row.dHarbour == harbour)
+            sortedHarbours.push(row);
+        });
+    }
+    return sortedHarbours;
+}
+
+/**
+ * @param {*} company Use this function to get a new display with every row related to searched city.
+ */
+function filterCompany(table, company){
+    var sortedCompanies = [];
+    if(company == "Company"){
+        sortedCompanies = table; //Display all data
+    }
+    else {
+        table.forEach(row => {
+            if(row.Company == company)
+            sortedCompanies.push(row);
+        });
+    }
+    return sortedCompanies;
+}
+
 
 function generateTableHead(table, data) {
     let thead = table.createTHead();
     let row = thead.insertRow();
     row.className = "table100-head";
     for (let key of data) {
-        if(key != selectedKey){
-            let th = document.createElement("th");
-            let text = document.createTextNode(key);
-            th.appendChild(text);
-            row.appendChild(th);
-        }
-        
+        let th = document.createElement("th");
+        let text = document.createTextNode(key);
+        th.appendChild(text);
+        row.appendChild(th);
     }
 }
 
-
-
 function generateTable(table, data) {
     for (let element of data) {
-        console.log("element: " + element);
         let row = table.insertRow();
         for (key in element) {
-            console.log("key: " + key + "  selectedKey: " + selectedKey);
-            if(key != selectedKey){
-                let cell = row.insertCell();
-                let text = document.createTextNode(element[key]);
-                cell.appendChild(text);
-            }
+            let cell = row.insertCell();
+            let text = document.createTextNode(element[key]);
+            cell.appendChild(text);
         }
     }
 }
