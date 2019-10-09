@@ -1,60 +1,31 @@
 window.onload = function(){
-
     let table = document.getElementById("shipTable");
     let data = Object.keys(mockupEntries[0]); //column names for the table header
     generateTable(table, mockupEntries);
     generateTableHead(table, data);
     
-    //TODO: Refactor the following 50 rows...
-    // Create dropdown menu for harbours
-    var harbours = [];
-    for(row = 0; row < mockupEntries.length; row++){
-        if(!harbours.includes(mockupEntries[row].oHarbour)){
-            harbours.push(mockupEntries[row].oHarbour);
+    generateMenu(["dHarbour", "oHarbour"], "dropdownHarbour");
+    generateMenu(["Origin", "Destination"], "dropdownCities");
+    generateMenu(["Company"], "dropdownCompanies");
+}
+
+function generateMenu(keys, id){
+    var menu = document.getElementById(id);
+    var options = [];
+    for(i = 0; i <keys.length; i++) {
+        for(row = 0; row < mockupEntries.length; row++){
+            str = keys[i]
+            if(!options.includes((mockupEntries[row])[str])){
+                options.push((mockupEntries[row])[str]);
+            }
         }
-        if(!harbours.includes(mockupEntries[row].dHarbour)){
-            harbours.push(mockupEntries[row].dHarbour);
-        }
-    }
-    var select = document.getElementById("dropdownHarbour");
-    for (i = 0; i < harbours.length; i++){
-        var option = document.createElement("OPTION");
-        var text = document.createTextNode(harbours[i]);
-        option.appendChild(text);
-        select.insertBefore(option,select.lastChild);
     }
     
-    // Create dropdown menu for Cities
-    var cities = [];
-    for(row = 0; row < mockupEntries.length; row++){
-        if(!cities.includes(mockupEntries[row].Origin)){
-            cities.push(mockupEntries[row].Origin);
-        }
-        if(!cities.includes(mockupEntries[row].Destination)){
-            cities.push(mockupEntries[row].Destination);
-        }
-    }
-    var select = document.getElementById("dropdownCities");
-    for (i = 0; i < cities.length; i++){
+    for (i = 0; i < options.length; i++){
         var option = document.createElement("OPTION");
-        var text = document.createTextNode(cities[i]);
+        var text = document.createTextNode(options[i]);
         option.appendChild(text);
-        select.insertBefore(option,select.lastChild);
-    }
-    
-    // Create dropdown menu for Companies
-    var companies = [];
-    for(row = 0; row < mockupEntries.length; row++){
-        if(!companies.includes(mockupEntries[row].Company)){
-            companies.push(mockupEntries[row].Company);
-        }
-    }
-    var select = document.getElementById("dropdownCompanies");
-    for (i = 0; i < companies.length; i++){
-        var option = document.createElement("OPTION");
-        var text = document.createTextNode(companies[i]);
-        option.appendChild(text);
-        select.insertBefore(option,select.lastChild);
+        menu.insertBefore(option,menu.lastChild);
     }
 }
 
