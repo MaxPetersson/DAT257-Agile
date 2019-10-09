@@ -1,3 +1,62 @@
+window.onload = function(){
+
+    let table = document.getElementById("shipTable");
+    let data = Object.keys(mockupEntries[0]); //column names for the table header
+    generateTable(table, mockupEntries);
+    generateTableHead(table, data);
+    
+    //TODO: Refactor the following 50 rows...
+    // Create dropdown menu for harbours
+    var harbours = [];
+    for(row = 0; row < mockupEntries.length; row++){
+        if(!harbours.includes(mockupEntries[row].oHarbour)){
+            harbours.push(mockupEntries[row].oHarbour);
+        }
+        if(!harbours.includes(mockupEntries[row].dHarbour)){
+            harbours.push(mockupEntries[row].dHarbour);
+        }
+    }
+    var select = document.getElementById("dropdownHarbour");
+    for (i = 0; i < harbours.length; i++){
+        var option = document.createElement("OPTION");
+        var text = document.createTextNode(harbours[i]);
+        option.appendChild(text);
+        select.insertBefore(option,select.lastChild);
+    }
+    
+    // Create dropdown menu for Cities
+    var cities = [];
+    for(row = 0; row < mockupEntries.length; row++){
+        if(!cities.includes(mockupEntries[row].Origin)){
+            cities.push(mockupEntries[row].Origin);
+        }
+        if(!cities.includes(mockupEntries[row].Destination)){
+            cities.push(mockupEntries[row].Destination);
+        }
+    }
+    var select = document.getElementById("dropdownCities");
+    for (i = 0; i < cities.length; i++){
+        var option = document.createElement("OPTION");
+        var text = document.createTextNode(cities[i]);
+        option.appendChild(text);
+        select.insertBefore(option,select.lastChild);
+    }
+    
+    // Create dropdown menu for Companies
+    var companies = [];
+    for(row = 0; row < mockupEntries.length; row++){
+        if(!companies.includes(mockupEntries[row].Company)){
+            companies.push(mockupEntries[row].Company);
+        }
+    }
+    var select = document.getElementById("dropdownCompanies");
+    for (i = 0; i < companies.length; i++){
+        var option = document.createElement("OPTION");
+        var text = document.createTextNode(companies[i]);
+        option.appendChild(text);
+        select.insertBefore(option,select.lastChild);
+    }
+}
 
 var mockupEntries = [{"Origin": "Kiel", "Destination": "Gothenburg", "oHarbour": "Skandiahamnen", "dHarbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Germanica", "dTime": "02/09/19 16:49", "aTime": "02/09/19 11:49"},
 {"Origin": "Aland", "Destination": "Gothenburg", "oHarbour": "Arendal", "dHarbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Germanica", "dTime": "05/10/19 05:45", "aTime": "05/10/19 12:45"},
@@ -19,51 +78,110 @@ var mockupEntries = [{"Origin": "Kiel", "Destination": "Gothenburg", "oHarbour":
 {"Origin": "Stockholm", "Destination": "Gothenburg", "oHarbour": "Bilhamnen", "dHarbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Vinga", "dTime": "04/05/19 22:41", "aTime": "04/05/19 18:41"},
 {"Origin": "Fredrikstad", "Destination": "Gothenburg", "oHarbour": "Ryahamnen", "dHarbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Vinga", "dTime": "13/05/19 06:35", "aTime": "13/05/19 04:35"}]
 
+function clearTable(){
+    document.getElementById("shipTable").innerHTML = "";
+}
+
+function drawTable(list){
+    let tableElement = document.getElementById("shipTable");
+    let columnNames = Object.keys(list[0]); //column names for the table header
+
+    generateTable(tableElement, list);
+    generateTableHead(tableElement, columnNames);
+}
+
+function filter(){
+    clearTable()
+    var cityValue = document.getElementById("dropdownCities").value
+    var sortedCities = filterCity(mockupEntries, cityValue);
+    
+    var harbourValue = document.getElementById("dropdownHarbour").value
+    var sortedHarbours = filterHarbour(sortedCities, harbourValue)
+
+    var companyValue = document.getElementById("dropdownCompanies").value
+    var sortedCompanies = filterCompany(sortedHarbours, companyValue)
+    drawTable(sortedCompanies);
+}
+
 /**
  * @param {*} city Use this function to get a new display with every row related to searched city.
  */
-function filterCity(city){
-    // Remove current shipTable content
-    document.getElementById("shipTable").innerHTML = "";
-
+function filterCity(table, city){
     var sortedCities = [];
     if(city == "City"){
-        sortedCities = mockupEntries; //Display all data
+        sortedCities = table; //Display all data
     }
     else {
-        mockupEntries.forEach(row => {
+        table.forEach(row => {
             if(row.Origin == city || row.Destination == city)
             sortedCities.push(row);
         });
     }
+    return sortedCities;
+}
 
-    // Apply new content
-    generateTable(table, sortedCities);
-    generateTableHead(table, data);
+/**
+ * @param {*} harbour Use this function to get a new display with every row related to searched harbour.
+ */
+function filterHarbour(table, harbour){
+    var sortedHarbours = [];
+    if(harbour == "Harbour"){
+        sortedHarbours = table; //Display all data
+    }
+    else {
+        table.forEach(row => {
+            if(row.oHarbour == harbour || row.dHarbour == harbour)
+            sortedHarbours.push(row);
+        });
+    }
+    return sortedHarbours;
+}
+
+function filterHarbourDepartures(table, harbour){
+    var sortedHarbours = [];
+    if(harbour == "Harbour"){
+        sortedHarbours = table; //Display all data
+    }
+    else {
+        table.forEach(row => {
+            if(row.oHarbour == harbour)
+            sortedHarbours.push(row);
+        });
+    }
+    return sortedHarbours;
+}
+
+function filterHarbourArrivals(table, harbour){
+    var sortedHarbours = [];
+    if(harbour == "Harbour"){
+        sortedHarbours = table; //Display all data
+    }
+    else {
+        table.forEach(row => {
+            if(row.dHarbour == harbour)
+            sortedHarbours.push(row);
+        });
+    }
+    return sortedHarbours;
 }
 
 /**
  * @param {*} company Use this function to get a new display with every row related to searched city.
  */
-function filterCompany(company){
-    // Remove current shipTable content
-    document.getElementById("shipTable").innerHTML = "";
-
+function filterCompany(table, company){
     var sortedCompanies = [];
     if(company == "Company"){
-        sortedCompanies = mockupEntries; //Display all data
+        sortedCompanies = table; //Display all data
     }
     else {
-        mockupEntries.forEach(row => {
+        table.forEach(row => {
             if(row.Company == company)
             sortedCompanies.push(row);
         });
     }
-
-    // Apply new content
-    generateTable(table, sortedCompanies);
-    generateTableHead(table, data);
+    return sortedCompanies;
 }
+
 
 function generateTableHead(table, data) {
     let thead = table.createTHead();
@@ -77,30 +195,6 @@ function generateTableHead(table, data) {
     }
 }
 
-/**
- * 
- * @param {*} harbour Use this function to get a new display with every row related to searched harbour.
- */
-function filterHarbour(harbour){
-    // Remove current shipTable content
-    document.getElementById("shipTable").innerHTML = "";
-
-    var sortedHarbours = [];
-    if(harbour == "Harbour"){
-        sortedHarbours = mockupEntries; //Display all data
-    }
-    else {
-        mockupEntries.forEach(row => {
-            if(row.oHarbour == harbour || row.dHarbour == harbour)
-            sortedHarbours.push(row);
-        });
-    }
-
-    // Apply new content
-    generateTable(table, sortedHarbours);
-    generateTableHead(table, data);
-}
-
 function generateTable(table, data) {
     for (let element of data) {
         let row = table.insertRow();
@@ -111,8 +205,3 @@ function generateTable(table, data) {
         }
     }
 }
-
-let table = document.getElementById("shipTable");
-let data = Object.keys(mockupEntries[0]); //column names for the table header
-generateTable(table, mockupEntries);
-generateTableHead(table, data);

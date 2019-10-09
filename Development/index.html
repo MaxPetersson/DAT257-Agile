@@ -5,6 +5,7 @@
 	<title>Table V01</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/main.js"></script>
 </head>
 
 <body>
@@ -12,39 +13,26 @@
 		<div class="wrap-table100">
 			<div class="table100">
 				<form>
-					<select name = "dropdownCities" onchange="filterCity(this.value)">
+					<select id = "dropdownCities" onchange="filter()">
 						<option value = "City" selected>City</option>
-						<option value = "Aland">Aland</option>
-						<option value = "Frederikshavn">Frederikshavn</option>
-						<option value = "Fredrikstad">Fredrikstad</option>
-						<option value = "Gothenburg">Gothenburg</option>
-						<option value = "Kiel">Kiel</option>
-						<option value = "Stockholm">Stockholm</option>
 					</select>
 				</form>
 				<form>
-					<select name = "dropdownHarbours" onchange="filterHarbour(this.value)">
-						<option value = "Harbour" selected>Harbour</option>
-						<option value = "Arendal">Arendal</option>
-						<option value = "Bilhamnen">Bilhamnen</option>
-						<option value = "Masthuggskajen">Masthuggskajen</option>
-						<option value = "Ryahamnen">Ryahamnen</option>
-						<option value = "Skandiahamnen">Skandiahamnen</option>
+					<select id="dropdownHarbour" onchange="filter()">
+						<option value="Harbour">Harbour</option>
 					</select>
 				</form>
 				<form>
-					<select name = "dropdownCompanies" onchange="filterCompany(this.value)">
+					<select id= "dropdownCompanies" onchange="filter()">
 						<option value = "Company" selected>Company</option>
-						<option value = "Stena Line">Stena Line</option>
-						<option value = "Silja Line">Silja Line</option>
 					</select>
-				</form>
+				</form>			
 				<table id="shipTable"></table>
 
 			</div>
 		</div>
 	</div>
-	<script src="js/main.js"></script>
+	
 </body>
 
 </html>
