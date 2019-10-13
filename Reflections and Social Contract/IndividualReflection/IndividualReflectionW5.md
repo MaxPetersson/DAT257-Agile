@@ -53,19 +53,19 @@ Individual reflection week #5
 <h2>Dara</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. I want to understand the concept of vertical slicing even more.<br>
+        B. I want to create better tasks.<br>
+        A->B. I need to fully understand vertical slicing in order to create even better tasks.<br>
     2. How can I help someone else, or the entire team, to learn something new?<br>
-        A. 
-        B. 
-        A->B.
+        A. I want to be able to solve different problems faster and more efficiently.<br>
+        B. I want to be able to talk about technical problems in the group, with the group.<br>
+        A->B. We can have short meetings where everyone can "speak up".<br>
     3. What is my contribution towards the team’s use of Scrum?<br>
-        A. 
-        B. 
-        A->B.
+        A. I have created user stories and tasks.<br>
+        B. I have code reviewed and completed tasks. <br>
+        A->B. I have helped in completing an entire sprint.<br>
     4. What is my contribution towards the team’s deliveries?<br>
-        A. 
+        A. Same as above.<br>
         B. 
         A->B.
         
