@@ -52,19 +52,19 @@ Individual reflection week #6
 <h2>Dara</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. I want to learn in what way the presentation of the project should be.<br>
+        B. I want to learn what should be included in the final report.<br>
+        A->B. I can discuss this with the teachers next week.<br>
     2. How can I help someone else, or the entire team, to learn something new?<br>
-        A. 
-        B. 
-        A->B.
+        A. In pair-programming I have discussed and solved different problems that occurred.<br>
+        B. I can help someone by listening closely to someones issue and try to formulate their issue in another, maybe more describing, way.<br>
+        A->B. I can brainstorm my thoughts on a fellow group members issue.<br>
     3. What is my contribution towards the team’s use of Scrum?<br>
-        A. 
-        B. 
-        A->B.
+        A. I continued on working on the web site and code reviewed different tasks.<br>
+        B. Discussed whether our velocity should be changed or maintained.<br>
+        A->B. Turned out our velocity was perfect and we just managed to complete the sprint.<br>
     4. What is my contribution towards the team’s deliveries?<br>
-        A. 
+        A. See above.<br>
         B. 
         A->B.
         
