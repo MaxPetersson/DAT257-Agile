@@ -109,20 +109,20 @@ Individual reflection week #6
 <br><h2>David</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. We are getting closer to the end<br>
+        B. I want to learn how to finish a last sprint<br>
+        A->B. we'll create a plan for writing a report/presentation about our project<br>
     2. How can I help someone else, or the entire team, to learn something new?<br>
-        A. 
-        B. 
-        A->B.
+        A. <br>
+        B. <br>
+        A->B. <br>
     3. What is my contribution towards the team’s use of Scrum?<br>
-        A. 
-        B. 
-        A->B.
+        A. I missed last sprint due to illness<br>
+        B. I needed to catch up<br>
+        A->B. I participated in peer programming<br>
     4. What is my contribution towards the team’s deliveries?<br>
-        A. 
-        B. 
-        A->B.
+        A. Multiple tasks were very similar<br>
+        B. We needed to implement them all uniformly
+        A->B. one group of peer programmers took one bunch of similar tasks and completed them efficiently
         
 <br>
