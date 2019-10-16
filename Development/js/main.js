@@ -1,3 +1,7 @@
+/**
+ * This function runs when loading the page
+ * Displays default table and dropdown menus
+ */
 window.onload = function(){
     let table = document.getElementById("shipTable");
     let data = Object.keys(mockupEntries[0]); //column names for the table header
@@ -8,7 +12,11 @@ window.onload = function(){
     generateMenu(["Origin", "Destination"], "dropdownCities");
     generateMenu(["Company"], "dropdownCompanies");
 }
-
+/**
+ * Generates dropdown menus with different options
+ * @param {*} keys keys to get data
+ * @param {*} id id to get html id
+ */
 function generateMenu(keys, id){
     var menu = document.getElementById(id);
     var options = [];
@@ -29,7 +37,8 @@ function generateMenu(keys, id){
     }
 }
 
-var mockupEntries = [{"Origin": "Kiel", "Destination": "Gothenburg", "oHarbour": "Skandiahamnen", "dHarbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Germanica", "dTime": "02/09/19 16:49", "aTime": "02/09/19 11:49"},
+// mockup data
+var mockupEntries = [{"Origin": "Kiel", "Destination": "Gothenburg", "Origin Harbour": "Skandiahamnen", "Destination Harbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Germanica", "Departure": "02/09/19 16:49", "Arrival": "02/09/19 11:49"},
 {"Origin": "Aland", "Destination": "Gothenburg", "oHarbour": "Arendal", "dHarbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Germanica", "dTime": "05/10/19 05:45", "aTime": "05/10/19 12:45"},
 {"Origin": "Stockholm", "Destination": "Gothenburg", "oHarbour": "Masthuggskajen", "dHarbour": "Arendal", "Company": "Silja Line", "Ship": "Germanica", "dTime": "10/09/19 01:18", "aTime": "10/09/19 10:18"},
 {"Origin": "Aland", "Destination": "Gothenburg", "oHarbour": "Ryahamnen", "dHarbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Fionia", "dTime": "12/06/19 05:12", "aTime": "12/06/19 12:12"},
@@ -49,10 +58,17 @@ var mockupEntries = [{"Origin": "Kiel", "Destination": "Gothenburg", "oHarbour":
 {"Origin": "Stockholm", "Destination": "Gothenburg", "oHarbour": "Bilhamnen", "dHarbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Vinga", "dTime": "04/05/19 22:41", "aTime": "04/05/19 18:41"},
 {"Origin": "Fredrikstad", "Destination": "Gothenburg", "oHarbour": "Ryahamnen", "dHarbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Vinga", "dTime": "13/05/19 06:35", "aTime": "13/05/19 04:35"}]
 
+/**
+ * Empty the table
+ */
 function clearTable(){
     document.getElementById("shipTable").innerHTML = "";
 }
 
+/**
+ * Draw the table on the page
+ * @param {*} list mockup data
+ */
 function drawTable(list){
     let tableElement = document.getElementById("shipTable");
     let columnNames = Object.keys(list[0]); //column names for the table header
@@ -61,6 +77,9 @@ function drawTable(list){
     generateTableHead(tableElement, columnNames);
 }
 
+/**
+ * Filter on city, harbour or company
+ */
 function filter(){
     clearTable()
     var cityValue = document.getElementById("dropdownCities").value
@@ -75,7 +94,8 @@ function filter(){
 }
 
 /**
- * @param {*} city Use this function to get a new display with every row related to searched city.
+ * Filter on city, displays every row that contains a cell with the requested city
+ * @param {*} city 
  */
 function filterCity(table, city){
     var sortedCities = [];
@@ -92,7 +112,8 @@ function filterCity(table, city){
 }
 
 /**
- * @param {*} harbour Use this function to get a new display with every row related to searched harbour.
+ * Filter on harbour, displays every row that contains a cell with the requested harbour
+ * @param {*} harbour 
  */
 function filterHarbour(table, harbour){
     var sortedHarbours = [];
@@ -108,6 +129,11 @@ function filterHarbour(table, harbour){
     return sortedHarbours;
 }
 
+/**
+ * Filters on departures on specified harbours
+ * @param {*} table 
+ * @param {*} harbour 
+ *  */
 function filterHarbourDepartures(table, harbour){
     var sortedHarbours = [];
     if(harbour == "Harbour"){
@@ -122,6 +148,11 @@ function filterHarbourDepartures(table, harbour){
     return sortedHarbours;
 }
 
+/**
+ * Filters on arrivals on specified harbours
+ * @param {*} table 
+ * @param {*} harbour 
+ */
 function filterHarbourArrivals(table, harbour){
     var sortedHarbours = [];
     if(harbour == "Harbour"){
@@ -137,7 +168,8 @@ function filterHarbourArrivals(table, harbour){
 }
 
 /**
- * @param {*} company Use this function to get a new display with every row related to searched city.
+ * Filter on company, displays every row that contains a cell with the requested company
+ * @param {*} company
  */
 function filterCompany(table, company){
     var sortedCompanies = [];
@@ -153,7 +185,11 @@ function filterCompany(table, company){
     return sortedCompanies;
 }
 
-
+/**
+ * Generates a header for the table
+ * @param {*} table 
+ * @param {*} data 
+ */
 function generateTableHead(table, data) {
     let thead = table.createTHead();
     let row = thead.insertRow();
@@ -170,6 +206,11 @@ function generateTableHead(table, data) {
     row.appendChild(th);
 }
 
+/**
+ * Generates the actual table and fills it with data
+ * @param {*} table 
+ * @param {*} data 
+ */
 function generateTable(table, data) {
     for (let element of data) {
         let row = table.insertRow();
