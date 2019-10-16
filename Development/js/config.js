@@ -1,3 +1,5 @@
+
+//Mockup data
 var mockupEntries = [{"Origin": "Kiel", "Destination": "Gothenburg", "oHarbour": "Skandiahamnen", "dHarbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Germanica", "dTime": "02/09/19 16:49", "aTime": "02/09/19 11:49"},
 {"Origin": "Aland", "Destination": "Gothenburg", "oHarbour": "Arendal", "dHarbour": "Masthuggskajen", "Company": "Stena Line", "Ship": "Germanica", "dTime": "05/10/19 05:45", "aTime": "05/10/19 12:45"},
 {"Origin": "Stockholm", "Destination": "Gothenburg", "oHarbour": "Masthuggskajen", "dHarbour": "Arendal", "Company": "Silja Line", "Ship": "Germanica", "dTime": "10/09/19 01:18", "aTime": "10/09/19 10:18"},
@@ -21,7 +23,9 @@ let table;
 let data;
 let selectedHarbour;
 
-
+/**
+ * Runs when loading page
+ */
 window.onload = function() {
     data = Object.keys(mockupEntries[0]); 
     table = document.getElementById("testTable");
@@ -38,10 +42,17 @@ window.onload = function() {
 
 };
 
+/**
+ * Stores selected location
+ * @param {*} selected 
+ */
 function selectedLocation(selected){
     selectedHarbour = selected;
 }
 
+/**
+ * Keeps track on the radio button that is checked
+ */
 function submitted(){
     var chosenPreset = null;
 
@@ -70,6 +81,11 @@ function submitted(){
 
 
 }
+
+/**
+ * Stores data and draws the table depending on which preset that is checked
+ * @param {*} preset 
+ */
 function formArguments(preset){
     if(preset == "preset1"){
         //Departures - Detailed
@@ -113,6 +129,11 @@ function formArguments(preset){
     }
 }
 
+/**
+ * Removes a selected column
+ * @param {*} toBeRemoved 
+ * @param {*} data 
+ */
 function removeColumns(toBeRemoved, data) {
     data.forEach(row => {
         delete row[toBeRemoved];
@@ -121,7 +142,8 @@ function removeColumns(toBeRemoved, data) {
 }
 
 /**
- * @param {*} city Use this function to get a new display with every row related to searched city.
+ * Filter on city, displays every row that contains a cell with the requested city
+ * @param {*} city
  */
 function filterCity(table, city){
     var sortedCities = [];
@@ -138,7 +160,8 @@ function filterCity(table, city){
 }
 
 /**
- * @param {*} harbour Use this function to get a new display with every row related to searched harbour.
+ * Filter on harbour, displays every row that contains a cell with the requested harbour
+ * @param {*} harbour
  */
 function filterHarbour(table, harbour){
     var sortedHarbours = [];
@@ -154,6 +177,11 @@ function filterHarbour(table, harbour){
     return sortedHarbours;
 }
 
+/**
+ * Filters on departures on specified harbours
+ * @param {*} table 
+ * @param {*} harbour 
+ */
 function filterHarbourDepartures(table, harbour){
     var sortedHarbours = [];
     if(harbour == "Harbour"){
@@ -169,7 +197,11 @@ function filterHarbourDepartures(table, harbour){
     }
     return sortedHarbours;
 }
-
+/**
+ * Filters on arrivals on specified harbours
+ * @param {*} table 
+ * @param {*} harbour 
+ */
 function filterHarbourArrivals(table, harbour){
     var sortedHarbours = [];
     if(harbour == "Harbour"){
@@ -185,7 +217,8 @@ function filterHarbourArrivals(table, harbour){
 }
 
 /**
- * @param {*} company Use this function to get a new display with every row related to searched city.
+ * Filter on company, displays every row that contains a cell with the requested company
+ * @param {*} company
  */
 function filterCompany(table, company){
     var sortedCompanies = [];
@@ -201,7 +234,11 @@ function filterCompany(table, company){
     return sortedCompanies;
 }
 
-
+/**
+ * Generates a header for the table
+ * @param {*} table
+ * @param {*} data
+ */
 function generateTableHead(table, data) {
     let thead = table.createTHead();
     let row = thead.insertRow();
@@ -214,6 +251,11 @@ function generateTableHead(table, data) {
     }
 }
 
+/**
+ * Generates the actual table and fills it with data
+ * @param {*} table
+ * @param {*} data
+ */
 function generateTable(table, data) {
 	let i = 0;
     for (let element of data) {
@@ -230,7 +272,3 @@ function generateTable(table, data) {
         }
     }
 }
-
-
-//generateTable(table, mockupEntries);
-//generateTableHead(table, data);
