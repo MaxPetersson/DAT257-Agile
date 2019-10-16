@@ -90,21 +90,21 @@ Individual reflection week #7
 <br><h2>Max</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. Finishing up with the last sprint.
+        B. How to summarize a project and prepare it for "passing it over".
+        A->B. Figuring out what a "final" version of the repo should look like and other documentation.
     2. How can I help someone else, or the entire team, to learn something new?<br>
         A. 
-        B. 
+        B. See above.
         A->B.
     3. What is my contribution towards the team’s use of Scrum?<br>
-        A. 
-        B. 
-        A->B.
+        A. We need to know what kind of user stories and epics that will be left in the product backlog.
+        B. What should the scrum-board look like when we are "done"?
+        A->B. Figuring out priorities from the PO and within the team.
     4. What is my contribution towards the team’s deliveries?<br>
-        A. 
-        B. 
-        A->B.
+        A. Wrapping up and documenting and preparing final report.
+        B. Balancing development, cleaning up and documentation.
+        A->B. I'm focusing on the final reflections and how we feel that the project, as whole, has gone.
         
 <br><h2>David</h2> 
 <br>
