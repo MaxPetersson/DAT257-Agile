@@ -164,6 +164,10 @@ function generateTableHead(table, data) {
         th.appendChild(text);
         row.appendChild(th);
     }
+    let th = document.createElement("th");
+    let text = document.createTextNode("Subscribe to a route");
+    th.appendChild(text);
+    row.appendChild(th);
 }
 
 function generateTable(table, data) {
@@ -174,5 +178,27 @@ function generateTable(table, data) {
             let text = document.createTextNode(element[key]);
             cell.appendChild(text);
         }
+        let cell = row.insertCell();
+        subscribeButton = document.createElement('BUTTON');
+        subscribeButton.innerHTML = "Subscribe";
+        subscribeButton.className += "subscribe";
+
+        subscribeButton.addEventListener("click", toggleModal);
+        var modal = document.querySelector(".modal");
+        var closeButton = document.querySelector(".close-button");
+
+        function toggleModal() {
+            modal.classList.toggle("show-modal");
+        }
+        subscribeButton.addEventListener("click", toggleModal);
+        closeButton.addEventListener("click", toggleModal);
+        cell.appendChild(subscribeButton);
+    }
+}
+
+window.addEventListener("click", windowOnClick);
+function windowOnClick(event) {
+    if (event.target === modal) {
+        toggleModal();
     }
 }
