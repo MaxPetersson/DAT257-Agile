@@ -34,12 +34,12 @@
 	</div>
 	<div class="modal">
         <div class="modal-content">
-            <span class="close-button">&times;</span>
+            <span class="close-button" onclick="clearContent()">&times;</span>
             <p class="subscribePopUp">Subscribe to receive email notifications with updated information about this route. Enter e-mail and click Submit.</p>
 			<br>
 			<label><b class="subscribePopUp">Email</b></label> 
-			<input type="text" class="subscribePopUp" placeholder="Enter Email" name="email" required> 
-			<span class="submit-button">Submit</span>
+			<input type="text" class="subscribePopUp" id="inputField" placeholder="Enter Email" name="email" required> 
+			<span class="submit-button" onclick="clearContent()">Submit</span>
         </div>
     </div>
 	

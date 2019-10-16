@@ -239,9 +239,14 @@ function generateTable(table, data) {
     }
 }
 
+function clearContent(){
+    document.getElementById('inputField').value=null;
+}
+
 window.addEventListener("click", windowOnClick);
 function windowOnClick(event) {
     if (event.target === modal) {
         toggleModal();
+        document.getElementsById('inputField').value='';
     }
 }
