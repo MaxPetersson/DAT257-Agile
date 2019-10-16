@@ -25,6 +25,5 @@ The entire team feels that we can focus more on developing during developing-ses
 
 
 
-Key Performance Indexes
-
-ESI: 4.0/5.0
+Key Performance Index:
+Employer Satisfaction Index (ESI): 4.0 / 5.0

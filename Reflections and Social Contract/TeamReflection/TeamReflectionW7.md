@@ -24,7 +24,5 @@ Both in terms of closing up the recent sprint but mainly in terms of preparing f
 
 
 
-Key Performance Indexes
-
-
-ESI: 4.7/5.0
+Key Performance Index:
+Employer Satisfaction Index (ESI): 4.7 / 5.0
