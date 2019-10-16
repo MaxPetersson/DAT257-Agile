@@ -107,9 +107,8 @@ Individual reflection week #5
         A. I was absent on the bigger work-meeting because of sickness.
         B. I want to be with all the possible times when the scrum-board is altered or updated.
     4. What is my contribution towards the team's deliveries?<br>
-        A. My contribution was lower than average because of falling ill. However I managed to help on other things than pure development.
-        B.
-        A->B. 
+        My contribution was lower than average because of falling ill. However I managed to help on other things than pure development.
+        
         
 <br>
 <h2>David</h2>

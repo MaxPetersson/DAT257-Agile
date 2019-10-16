@@ -90,21 +90,21 @@ Individual reflection week #6
 <br><h2>Max</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. I have some experience in web-development.
+        B. Web-development standards, specially for working in larger groups.
+        A->B. Discuss within this team and try to find standards.
     2. How can I help someone else, or the entire team, to learn something new?<br>
-        A. 
-        B. 
-        A->B.
+        A. Noone is experienced enough to know what standards are "best".
+        B. I would like to find a reasonable way towards standards so that everyone knows how to solve simpler problems.
+        A->B. Study suggestions and standards for basic web-development.
     3. What is my contribution towards the team’s use of Scrum?<br>
-        A. 
-        B. 
-        A->B.
+        A. I took a main role in preparing user stories and tasks for the sprint.
+        B. I want the sprint-"setup" to be as clear and efficient as possible.
+        A->B. Be very clear about whats most important and what to prioritize based on sprint backlog and PO.
     4. What is my contribution towards the team’s deliveries?<br>
-        A. 
-        B. 
-        A->B.
+        A. Assigning and solving tasks.
+        B. Contribute to the group being more efficient over all.
+        A->B. We programed together in teams of two.
         
 <br><h2>David</h2> 
 <br>
