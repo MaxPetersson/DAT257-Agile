@@ -186,12 +186,14 @@ function generateTable(table, data) {
         subscribeButton.addEventListener("click", toggleModal);
         var modal = document.querySelector(".modal");
         var closeButton = document.querySelector(".close-button");
+        var submitButton = document.querySelector(".submit-button");
 
         function toggleModal() {
             modal.classList.toggle("show-modal");
         }
         subscribeButton.addEventListener("click", toggleModal);
         closeButton.addEventListener("click", toggleModal);
+        submitButton.addEventListener("click", toggleModal);
         cell.appendChild(subscribeButton);
     }
 }
