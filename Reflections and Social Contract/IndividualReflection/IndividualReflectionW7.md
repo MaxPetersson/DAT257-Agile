@@ -109,20 +109,16 @@ Individual reflection week #7
 <br><h2>David</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. We are pretty much ready to turn in
+        B. How do we finish an agile project?
+        A->B. Tidying up github, turning in report, and presenting our pitch
     2. How can I help someone else, or the entire team, to learn something new?<br>
-        A. 
-        B. 
-        A->B.
+        Not much to learn at the end.
     3. What is my contribution towards the team’s use of Scrum?<br>
-        A. 
-        B. 
-        A->B.
+        
     4. What is my contribution towards the team’s deliveries?<br>
-        A. 
-        B. 
-        A->B.
+        A. We got a headstart with this sprint
+        B. We were ready for the report and presentation
+        A->B. I summarized parts of our team's reflections
         
 <br>
