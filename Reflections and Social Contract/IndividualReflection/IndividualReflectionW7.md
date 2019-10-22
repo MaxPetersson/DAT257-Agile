@@ -32,21 +32,21 @@ Individual reflection week #7
 <h2>Philip</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. I dont know how the presentation is about to happen.
+        B. I want to know how we will say it, who says what of our presentation.
+        A->B. We will meet early and rehearse before the presentation.
     2. How can I help someone else, or the entire team, to learn something new?<br>
-        A. 
-        B. 
-        A->B.
+        A. On wednessday we will rehearse.
+        B. I can give good input so that we make a good presentation
+        A->B. I will talk to the team about who does what on wednesday.
     3. What is my contribution towards the team’s use of Scrum?<br>
-        A. 
-        B. 
-        A->B.
+        A. This project is over the 23th of october. No scrumming needed.
+        B. I dont want to use scrum any more in this project, since it is done.
+        A->B. I wont scrum anymore this course.
     4. What is my contribution towards the team’s deliveries?<br>
-        A. 
-        B. 
-        A->B.
+        A. I plan on being on time for the rehearsal.
+        B. I want to be there on time.
+        A->B. I will take a early buss.
         
 <br>
 <h2>Dara</h2> 

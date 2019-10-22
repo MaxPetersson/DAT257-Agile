@@ -32,21 +32,21 @@ Individual reflection week #6
 <h2>Philip</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. I do not know the feedback from our po.
+        B. I want to know what feedback they gave us.
+        A->B.  I will ask on our next meeting what was said.
     2. How can I help someone else, or the entire team, to learn something new?<br>
-        A. 
-        B. 
-        A->B.
+        A. We learned a bit by co-programming last week.
+        B. I think we can learn by doing so again.
+        A->B. I will ask if someone in the group would like to co-program.
     3. What is my contribution towards the team’s use of Scrum?<br>
-        A. 
-        B. 
-        A->B.
+        A. I have not helped this wednesday or monday due illness.
+        B. I wish to contribute as I normally do.
+        A->B. I will get healthy until next week and make progress as the other weeks.
     4. What is my contribution towards the team’s deliveries?<br>
-        A. 
-        B. 
-        A->B.
+        A. I have not helped this wednesday or monday due illness
+        B. I wish to contribute even though I cant meet in person.
+        A->B. I will communicate better on slack if I happen to be sick or cant attend our mettings.
         
 <br>
 <h2>Dara</h2> 
