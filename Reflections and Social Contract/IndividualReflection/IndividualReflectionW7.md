@@ -52,19 +52,19 @@ Individual reflection week #7
 <h2>Dara</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. I want to be more sure about when a project is actually done.<br>
+        B. I want to satisfy a product owners requests.<br>
+        A->B. We have completed the product owners "requests" in our course. I would like to know when a project is done "in real life".<br>
     2. How can I help someone else, or the entire team, to learn something new?<br>
-        A. 
-        B. 
-        A->B.
+        A. Since we're in the last week, all that remains is presenting our product. So I don't think I can help someone else learn something at this stage.<br>
+        B. Maybe sharing my constructive critics about the presentation.<br>
+        A->B.<br>
     3. What is my contribution towards the team’s use of Scrum?<br>
-        A. 
-        B. 
+        A. We have finished the project. Code reviews, implementations etc. are done. <br>
+        B. The next time I work in an agile project I want to (and by now, probably am) be more efficient in the beginning of the project.<br>
         A->B.
     4. What is my contribution towards the team’s deliveries?<br>
-        A. 
+        A. As mentioned above.
         B. 
         A->B.
         
