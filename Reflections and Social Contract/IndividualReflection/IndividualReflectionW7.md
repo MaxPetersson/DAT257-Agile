@@ -71,22 +71,22 @@ Individual reflection week #7
 <br><h2>Oscar</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. I was able to learn more by asking Max to explain JS, CSS and html better for me.<br>
+        B. I want to know what goes in to make the report in order to make the process efficient and the content good.<br>
+        A->B. I need to read up on this on the website.<br>
     2. How can I help someone else, or the entire team, to learn something new?<br>
-        A. 
-        B. 
-        A->B.
+        A. I have made sure to help in every way I could during our group sessions.<br>
+        B. Next week there we have a "hiss pitch". I want to make sure we deliver a good result.<br>
+        A->B. I want assist whom ever is going to do it by giving them helpfull advice in andvance if they feel that they need it.<br>
     3. What is my contribution towards the team’s use of Scrum?<br>
-        A. 
-        B. 
-        A->B.
+        A. Last week on our meeting with the PO we made sure that our tasks were prioritized for the last sprint.<br>
+        B. Since the sprints are over there wont be any more use of scrum in this project.<br>
+        A->B. N/A <br>
     4. What is my contribution towards the team’s deliveries?<br>
-        A. 
-        B. 
-        A->B.
-        
+        A. I finnished the last tasks together with the group. It went smooth.<br>
+        B. I want to finish the report by the end of this week.<br>
+        A->B. By working efficient and make sure that I know what should be in the report.<br>
+       
 <br><h2>Max</h2> 
 <br>
     1. What do I want to learn or understand better?<br>

@@ -71,22 +71,21 @@ Individual reflection week #6
 <br><h2>Oscar</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
-        A. 
-        B. 
-        A->B. 
+        A. Since last week I have become better at making tasks that are "vertical".<br>
+        B. I want to be better at JS, html and CSS. <br>
+        A->B. I know that Max knows a lot more than me about this. I should ask him for some advice.<br>
     2. How can I help someone else, or the entire team, to learn something new?<br>
-        A. 
-        B. 
-        A->B.
+        A. We have been able to plan our work more efficient (with good US and task breakdown, and prioritys).<br>
+        B. I want to help with my coding knowledge during our group-coding sesions.<br>
+        A->B. During our coding sessions I will stay active and provide solutions to our problems.<br>
     3. What is my contribution towards the team’s use of Scrum?<br>
-        A. 
-        B. 
-        A->B.
+        A. I have been able to take part in creating good vertical tasks.<br>
+        B. I want to make sure we deliver value that the PO wants.<br>
+        A->B. Ask them about what US they would like to see done first.<br>
     4. What is my contribution towards the team’s deliveries?<br>
-        A. 
-        B. 
-        A->B.
-        
+        A. I have worked icrementaly with a focus on delivering a presentable result when working on tasks.<br>
+        B. Make sure that we all as a team work towards delivering results first (something presentable) then make it more "complicated".<br>
+        A->B. By reminding my co-workers during our group sessions that we sould focus on icremental work.<br>  
 <br><h2>Max</h2> 
 <br>
     1. What do I want to learn or understand better?<br>
